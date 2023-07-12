@@ -1,0 +1,9 @@
+@use "./components";
+@use "./colors" as *;
+@use "./mixins";
+@use "./reset";
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.6rem;
+}
