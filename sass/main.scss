@@ -267,16 +267,14 @@ body {
 			width: 70%;
 		}
 
-		&__text{
+		&__text {
 			font-size: 2.2rem;
 		}
 
-		&__title{
+		&__title {
 			font-size: 6rem;
 		}
 	}
-
-	
 }
 
 @media (min-width: 992px) {
@@ -319,14 +317,15 @@ body {
 		}
 	}
 
-	.hero-img{
+	.hero-img {
 		background-image: $blue-gradient, url("../img/polynesia-big.jpg");
+		background-attachment: fixed;
 
-		&__title{
+		&__title {
 			font-size: 7.2rem;
 		}
 
-		hr{
+		hr {
 			width: 60%;
 			max-width: 900px;
 		}
